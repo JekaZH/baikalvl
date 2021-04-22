@@ -1,6 +1,6 @@
 @font-face {
     font-family: GothamProNarrow;
-    src: url('/assets/font/Gotham Pro Narrow Medium.ttf');
+    src: url('./assets/font/Gotham Pro Narrow Medium.ttf');
 }
 
 body {
@@ -83,7 +83,7 @@ body {
 }
 
 .disp-page_banner {
-    background-image: url('/assets/images/banner_bg__main.png');
+    background-image: url('./assets/images/banner_bg__main.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -115,7 +115,7 @@ body {
 .red-bg-text::before {
     content: '';
     position: absolute;
-    background-image: url('/assets/images/red_banner_bg.png');
+    background-image: url('./assets/images/red_banner_bg.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 530px;
@@ -134,7 +134,7 @@ body {
 .white-bg-text::before {
     content: '';
     position: absolute;
-    background-image: url('/assets/images/white_banner_bg.png');
+    background-image: url('./assets/images/white_banner_bg.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 530px;
@@ -229,7 +229,7 @@ body {
 .disp-page_questions__list--item::before {
     content: '';
     position: absolute;
-    background-image: url('/assets/images/angle_mark.png');
+    background-image: url('./assets/images/angle_mark.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 35px;

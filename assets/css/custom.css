@@ -84,6 +84,8 @@ body {
 
 .disp-page_banner {
     background-image: url(..//images/banner_bg__main.png);
+    /* background-image: url(..//images/baik_main-banner_full_bg.png); */
+    
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -289,7 +291,12 @@ a.disp-page_footer-links__item--link-text:active {
     }
 
     .white-bg-text {
-        color: #fff;
+        color: #EE3727;
+        background-color: #fff;
+    }
+
+    .red-bg-text_content {
+        background-color: #EE3727;
     }
 
     .disp-page_banner__text {

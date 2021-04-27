@@ -83,7 +83,9 @@ body {
 }
 
 .disp-page_banner {
-    background-image: url(..//images/banner_bg__main.png);
+    /* background-image: url(..//images/banner_bg__main.png); */
+    background-image: url(..//images/new_baik_bg.png);
+    
     /* background-image: url(..//images/baik_main-banner_full_bg.png); */
     
     background-repeat: no-repeat;
@@ -282,9 +284,11 @@ a.disp-page_footer-links__item--link-text:active {
         position: relative;
         margin-top: 15px;
     }
-}
 
-@media screen and (max-width: 991px) {
+    .disp-page_banner__text {
+        max-width: max-content;
+    }
+
     .red-bg-text::before,
     .white-bg-text::before {
         display: none;
@@ -298,7 +302,9 @@ a.disp-page_footer-links__item--link-text:active {
     .red-bg-text_content {
         background-color: #EE3727;
     }
+}
 
+@media screen and (max-width: 991px) {
     .disp-page_banner__text {
         max-width: 100%;
     }
